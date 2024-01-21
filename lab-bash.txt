@@ -1,0 +1,293 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\kr_sh> ls
+
+
+    Directory: C:\Users\kr_sh
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07/12/2023     10:55                .anaconda
+d-----        16/01/2024     17:50                .conda
+d-----        07/12/2023     10:55                .continuum
+d-----        07/12/2023     11:39                .ipython
+d-----        07/12/2023     11:33                .jupyter
+d-----        11/01/2024     08:45                .matplotlib
+d-----        05/12/2023     14:14                .vscode
+d-----        16/01/2024     11:13                AnAcOndA
+d-r---        23/11/2023     17:24                Contacts
+d-r---        21/01/2024     10:55                Desktop
+d-r---        07/12/2023     10:48                Documents
+d-r---        19/01/2024     15:04                Downloads
+d-r---        23/11/2023     17:24                Favorites
+d-----        21/01/2024     10:55                IrOnhAck
+d-r---        23/11/2023     17:24                Links
+d-r---        23/11/2023     17:24                Music
+d-r---        23/11/2023     17:32                OneDrive
+d-r---        11/01/2024     13:17                Pictures
+d-----        28/02/2019     21:45                Roaming
+d-r---        23/11/2023     17:24                Saved Games
+d-r---        23/11/2023     19:06                Searches
+d-r---        08/12/2023     10:03                Videos
+-a----        15/01/2024     18:20            107 .bash_history
+-a----        07/12/2023     11:01             25 .condarc
+-a----        15/01/2024     17:21             55 .gitconfig
+
+
+PS C:\Users\kr_sh> cd ironhack
+PS C:\Users\kr_sh\ironhack> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        07/12/2023     11:39                .ipynb_checkpoints
+d-----        16/01/2024     11:13                AnAcOndA
+d-----        18/01/2024     13:46                dAy_2
+d-----        18/01/2024     13:45                dAy_3
+d-----        18/01/2024     13:45                dAy_4
+d-----        19/01/2024     08:34                dAy_5
+d-----        21/01/2024     10:55                IH-Labs
+-a----        07/12/2023     11:47            765 Untitled.ipynb
+
+
+PS C:\Users\kr_sh\ironhack> cd ih-labs
+PS C:\Users\kr_sh\ironhack\ih-labs> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15/01/2024     17:54                ironPedroLigeiro
+d-----        21/01/2024     11:08                lab-bash
+d-----        17/01/2024     09:14                lab-dw-pandas
+d-----        15/01/2024     15:53                lab-git
+-a----        19/01/2024     15:04         185666 github instructions.PNG
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs> cd lab-bash
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15/01/2024     11:38                .github
+d-----        15/01/2024     11:38                exercices
+d-----        15/01/2024     11:38                inputs
+d-----        15/01/2024     11:38                lorem
+d-----        21/01/2024     11:14                lorem-copy
+d-----        15/01/2024     11:38                outputs
+-a----        15/01/2024     11:38           6148 .DS_Store
+-a----        15/01/2024     11:38           2597 readme.md
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> mkdir new_dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21/01/2024     11:17                new_dir
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15/01/2024     11:38                .github
+d-----        15/01/2024     11:38                exercices
+d-----        15/01/2024     11:38                inputs
+d-----        15/01/2024     11:38                lorem
+d-----        21/01/2024     11:14                lorem-copy
+d-----        21/01/2024     11:17                new_dir
+d-----        15/01/2024     11:38                outputs
+-a----        15/01/2024     11:38           6148 .DS_Store
+-a----        15/01/2024     11:38           2597 readme.md
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> del new_dir
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15/01/2024     11:38                .github
+d-----        15/01/2024     11:38                exercices
+d-----        15/01/2024     11:38                inputs
+d-----        15/01/2024     11:38                lorem
+d-----        21/01/2024     11:14                lorem-copy
+d-----        15/01/2024     11:38                outputs
+-a----        15/01/2024     11:38           6148 .DS_Store
+-a----        15/01/2024     11:38           2597 readme.md
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> cd lorem
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15/01/2024     11:38            863 at.txt
+-a----        15/01/2024     11:38            861 at.txte
+-a----        15/01/2024     11:38            451 lorem.txt
+-a----        15/01/2024     11:38            900 sed.txt
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> copy sed.txt c:\users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> cd..
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15/01/2024     11:38                .github
+d-----        15/01/2024     11:38                exercices
+d-----        15/01/2024     11:38                inputs
+d-----        15/01/2024     11:38                lorem
+d-----        21/01/2024     11:14                lorem-copy
+d-----        15/01/2024     11:38                outputs
+-a----        15/01/2024     11:38           6148 .DS_Store
+-a----        15/01/2024     11:38           2597 readme.md
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> cd lorem-copy
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15/01/2024     11:38           6148 .DS_Store
+-a----        15/01/2024     11:38              0 .gitkeep
+-a----        15/01/2024     11:38             12 dummy_file.txt
+-a----        15/01/2024     11:38            900 sed.txt
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> cd..
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> cd lorem
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        15/01/2024     11:38            863 at.txt
+-a----        15/01/2024     11:38            861 at.txte
+-a----        15/01/2024     11:38            451 lorem.txt
+-a----        15/01/2024     11:38            900 sed.txt
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> copy lorem.txt,at.txt,at.txte c:\users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> get-content sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> get-content at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> get-content lorem.txt
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> cd..
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> dir
+
+
+    Directory: C:\Users\kr_sh\ironhack\ih-labs\lab-bash
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        15/01/2024     11:38                .github
+d-----        15/01/2024     11:38                exercices
+d-----        15/01/2024     11:38                inputs
+d-----        15/01/2024     11:38                lorem
+d-----        21/01/2024     11:27                lorem-copy
+d-----        15/01/2024     11:38                outputs
+-a----        15/01/2024     11:38           6148 .DS_Store
+-a----        15/01/2024     11:38           2597 readme.md
+
+
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> cd lorem-copy
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> get-content sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> get-content sed.txt -totalcount 3
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> get-content sed.txt -tail 3
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> add-content sed.txt -value "Homo homini lupus."
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> get-content sed.txt -tail 3
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Homo homini lupus.
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem-copy> cd..
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash> cd lorem
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem> get-content at.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga.
+Et harum quidem rerum facilis est ET expedita distinctio.
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET
+ut ET voluptates repudiandae sint ET molestiae non recusandae.
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores
+alias consequatur aut perferendis doloribus asperiores repellat
+PS C:\Users\kr_sh\ironhack\ih-labs\lab-bash\lorem>
